@@ -157,10 +157,6 @@ const animationTimeline = () => {
     .to(
       ".idea-5 .smiley",
       0.7,
-      // {
-      //   rotation: 90,
-      //   x: 8
-      // },
       "+=0.4"
     )
     .to(
@@ -289,7 +285,7 @@ const animationTimeline = () => {
       // {
       //   rotation: 90
       // },
-      "+=1"
+      // "+=1"
     );
 
   // tl.seek("currentStep");
