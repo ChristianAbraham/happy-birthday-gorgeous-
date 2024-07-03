@@ -157,10 +157,10 @@ const animationTimeline = () => {
     .to(
       ".idea-5 .smiley",
       0.7,
-      {
-        rotation: 90,
-        x: 8
-      },
+      // {
+      //   rotation: 90,
+      //   x: 8
+      // },
       "+=0.4"
     )
     .to(
@@ -286,9 +286,9 @@ const animationTimeline = () => {
     .to(
       ".last-smile",
       0.5,
-      {
-        rotation: 90
-      },
+      // {
+      //   rotation: 90
+      // },
       "+=1"
     );
 
