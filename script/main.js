@@ -285,10 +285,10 @@ const animationTimeline = () => {
     .to(
       ".last-smile",
       0.5,
-      // {
-      //   rotation: 90
-      // },
-      // "+=1"
+      {
+        // rotation: 90
+      },
+      "+=1"
     );
 
   // tl.seek("currentStep");
@@ -297,7 +297,7 @@ const animationTimeline = () => {
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
-    tl.restart();
+    window.location.href = "www.google.com"
   });
 };
 
