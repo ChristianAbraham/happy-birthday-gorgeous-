@@ -157,6 +157,9 @@ const animationTimeline = () => {
     .to(
       ".idea-5 .smiley",
       0.7,
+      {
+        x: 8
+      },
       "+=0.4"
     )
     .to(
